@@ -11,12 +11,7 @@ body{
   padding: 0px 0px;
 }
 
-p, li{
-  color: #444;
-  font-size: 14px;
-}
-
-/* Navigation Bar */
+/* Barra de navegação */
 
 header, .navbar {
   background-color: rgb(49, 45, 45);
@@ -26,12 +21,6 @@ header, .navbar {
   padding-top: 0;
   padding-bottom: 0;
 
-}
-
-#logo{
-  width: 75px;
-  border-radius: 35px;
-  padding-left: 15%;
 }
 
 .navbar-brand{
@@ -53,6 +42,14 @@ header, .navbar {
   padding: 1rem .8rem
 }
 
+/* Estilização da Logo */
+#logo{
+  width: 75px;
+  border-radius: 35px;
+  padding-left: 15%;
+}
+
+/* Estilização de títulos */
 h2 {
   font-size: 35px;
   padding-top: 6rem;
@@ -67,6 +64,7 @@ h3 {
   padding-top: 15rem;
 }
 
+/* Estilização de corpo das páginas */
 #who-area{
   background-color: rgba(100, 100, 100, 0.13);
   color: rgb(3, 4, 5);
@@ -121,6 +119,7 @@ main .formulario label{
   margin-top:0;
 }
 
+/* Estilização de botões */
 .botao{
   background-color: #757575;
   border-radius: 25px;
@@ -148,6 +147,7 @@ main .formulario label{
   background-color: aliceblue;
 }
 
+/* Estilização do rodapé */
 footer{
   border-top: 2px solid black;
 }
@@ -159,6 +159,7 @@ footer{
   justify-content: space-around;
 }
 
+/* Estilização dos botões feitos em bootstrap com link para as redes sociais */
 .btn-linkedin{
   padding: 5px 10px 5px 10px;
   border-radius: 50px;
